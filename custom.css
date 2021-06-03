@@ -93,3 +93,26 @@ footer .widget-title{
 #home-box i{
     color:red;
 }
+.box-lotrinh{
+    padding-top: 30px;
+}
+.top-box-lotrinh span {
+    position: absolute;
+    /* left: 0; */
+    /* top: 0; */
+    display: flex;
+    background: red;
+    flex-direction: row;
+    flex-wrap: wrap;
+    z-index: 999;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.top-box-lotrinh:hover {
+    transform: scale(1.05);
+}
