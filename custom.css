@@ -83,3 +83,13 @@ footer .widget-title{
     border-radius: 15px;
     box-shadow: 3px 2px 6px #333;
 }
+.about-img img{
+    width:100%;
+}
+
+#home-box{
+    background:white;
+}
+#home-box i{
+    color:red;
+}
