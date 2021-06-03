@@ -1,0 +1,85 @@
+ul, li , p{
+    margin:0px;
+    padding:0px;
+}
+.brand img{
+    max-width: 100%;
+}
+#header nav{
+    padding:0px;
+}
+#header nav ul li.nav-item{
+    padding-left:15px;
+    padding-right: 15px;;
+}
+#header nav ul li a{
+    font-family: Muli, sans-serif;
+    color:black;
+    padding: 15px 0px;
+}
+#header nav ul li a.active{
+    color:#F9AE00;
+    border-bottom:2px solid #F9AE00;
+}
+#header nav ul li a:hover{
+    color:#F9AE00;
+    border-bottom:2px solid #F9AE00;
+}
+.register{
+    padding:10px;
+}
+main{
+    min-height: 200px;
+    background:#dfdfdf;
+}
+#info-footer{
+    padding-top:30px;
+    padding-bottom:30px;
+
+    border-top:1px solid #dfdfdf;
+}
+footer .widget .widget-content li{
+    list-style-type:none;
+}
+footer .widget .widget-content li a{
+    text-decoration: none;
+    color:#000;
+}
+footer .widget-title{
+    color: #F9AE00;
+    font-size: 18px;
+}
+#copyright{
+        padding: 10px 15px;
+        background-color: #1c1d31;
+        text-align: center;
+        font-size: 13px;
+        line-height: 18px;
+        color: #fff;
+    
+}
+.slider{
+    background-image:url(images/head-left-bg.png) ;
+    background-repeat: no-repeat;
+    min-height: 500px;
+
+}
+.sdider-title {
+    background-color: #fff;
+    padding:20px;
+    margin-top: 300px;
+    margin-bottom:50px;
+}
+.sdider-title .title{
+    font-size: 3em;
+}
+.sdider-title .description{
+    font-size: 16px;
+}
+.form-register{
+    background-color:#fff;
+    padding:20px;
+    margin-top:30px;
+    border-radius: 15px;
+    box-shadow: 3px 2px 6px #333;
+}
