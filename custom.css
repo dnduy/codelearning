@@ -116,3 +116,61 @@ footer .widget-title{
 .top-box-lotrinh:hover {
     transform: scale(1.05);
 }
+#category-header{
+    background:url(images/new-banner-list-courses.png) no-repeat;
+
+}
+#category-header .title{
+    color:white;
+}
+.category-top{
+    padding:30px 0px;
+}
+.category-top input, .category-top button{
+    background-color: #fff;
+    border:0px;
+    padding:10px;
+}
+.category-top input{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.category-top button{
+    margin-left: -5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;;
+}
+.category-top button:hover{
+    background-color:darkcyan;
+    color:#fff;
+}
+.course {
+    background: #fff;
+    /* padding: 15px; */
+    border-radius: 15px;
+}
+.course-img img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.course-content {
+    padding: 15px;
+    border-top-right-radius: 30px;
+    margin-top: -30px;
+    z-index: 9;
+    background: #fff;
+    position: relative;
+}
+.course-content .title{
+    font-size: 20px;
+}
+.course-content .rate{
+    color: yellow;
+}
+.course-content .course-status span{
+    background:rgb(153, 153, 11);
+    border-radius: 20px;
+    padding:5px;
+    color:white;
+}
